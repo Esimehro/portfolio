@@ -207,10 +207,12 @@
 
     .buttonContainer{
         max-width: 30rem;
+        gap: .5rem;
     }
 
     .buttonContainer a{
-        font-size: 13px;
+        font-size: 11px;
+        width: 9rem;
     }
    
     
