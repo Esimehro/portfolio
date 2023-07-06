@@ -1,0 +1,43 @@
+.navControl{
+    display: flex;
+    background-color: #C8B6A6;
+    width: max-content; 
+    position: fixed;
+    bottom: 2rem;
+    gap: 1.5rem;
+    border-radius: 3rem;
+    transform: translateX(-50%);
+    left: 50%;
+    z-index: 2;
+    padding: .7rem 1.7rem;
+    backdrop-filter: blur(15px);
+    align-items: center;
+    flex-direction: row;
+}
+
+.navControl a{
+    font-size: 1.5rem;
+    color: inherit;
+    padding: .7rem;
+    border-radius: 50%;
+    align-self: center;
+    line-height: 1rem;
+}
+
+.navControl a:hover{
+    background-color: #A4907C;
+    color: white;
+}
+
+.navControl a.active{
+    background-color: #8D7B68;
+    color: white;
+}
+
+@media screen and (max-width:450px
+) {
+    .navControl{
+        padding: .7rem .7rem;
+        gap: 1rem;
+    } 
+}

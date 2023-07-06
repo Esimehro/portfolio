@@ -1,0 +1,211 @@
+.homeContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    max-width: 1200px;
+}
+
+.homeContainerText{
+    /* background-color: rgb(70, 70, 128); */
+    max-width: 45%;
+    color: #F9F5EB;
+}
+
+.homeContainerText h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.homeContainerText h3{
+    color: transparent;
+    -webkit-text-stroke: .7px rgb(104, 104, 153);
+    font-size: 35px;
+    background-image: linear-gradient(#F9F5EB,#F9F5EB);
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: homeBgText 6s linear infinite;
+    animation-delay: 2s;
+}
+
+.homeContainerText h3::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    border-right: 2px solid #F9F5EB;
+    z-index: -1;
+}
+
+.homeContainerText p{
+    font-size: 18px;
+    margin-top: .5rem;
+}
+
+.buttonContainer{
+    margin-top: 1rem;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: space-between; */
+    width: 32rem;
+    padding: 1rem 4rem;
+    gap: 2rem;
+}
+
+.buttonContainer a{
+    position: relative;
+    text-decoration: none;
+    border: 0.5px solid #F9F5EB;
+    /* background-color: #F9F5EB; */
+    padding: 1rem 2rem;
+    color: inherit;
+    font-weight: 500;
+    width: 15rem;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+    /* margin: 0 auto; */
+    
+}
+
+.buttonContainer a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #C8B6A6;
+    z-index: -1;
+    height: 100%;
+    width: 0;
+    transition: .5s;
+}
+
+.buttonContainer a:hover::before{
+    width: 100%;
+}
+
+.homeContainerImage{
+    width: 30rem;
+    height: 25rem;
+    background-image: url('../../assets/lady.jpg');
+    background-color: #8D7B68; 
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+}
+
+
+/* KEYFRAMES ANIMATION */
+@keyframes homeBgText {
+    0%, 10%, 100%{
+        background-position: -40rem 0;
+    }
+    65%, 85%{
+        background-position: 0 0;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .homeContainer{
+        max-width: 1024px;
+        /* background-color: red; */
+    }
+
+    .buttonContainer{
+        margin-top: 2rem;
+    }
+
+    .homeContainerImage{
+        margin-top: -5rem;
+        width: 25rem;
+    }
+
+    .homeContainerText p{
+        max-width: 18rem;
+    }
+}
+
+@media screen and (max-width: 789px){
+    .homeContainerImage{
+        width: 20rem;
+        height: 20rem;
+        border-radius: 50%;
+        object-fit: contain;
+        object-position: center;
+        margin-top: -7rem;
+    }
+
+    .homeContainer{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-self: center;
+        /* margin-top: 2rem; */
+        /* height: 100vh; */
+        /* background-color: blue; */
+    }
+
+    .homeContainerText{
+        max-width: 100%;
+        /* background-color: red; */
+        /* height: 40rem; */
+        margin-top: 1rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .homeContainerText h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: red; */
+        font-size: 40px;
+    }
+
+    .homeContainerText p{
+        max-width: 30rem;
+    }
+
+    .buttonContainer{
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 489px){
+    .homeContainerImage{
+        height: 18rem;
+        width: 18rem;
+        /* margin-top: 1rem; */
+    }
+}
+
+
+    
+@media screen and (max-width: 450px){
+    .homeContainerImage{
+        margin-top: 0;
+        height: 15rem;
+        width: 15rem;
+    }
+
+    .homeContainer{
+        max-width: 450px;
+       overflow-y: hidden;
+       overflow-x: hidden;
+    }
+
+    .buttonContainer{
+        /* margin-top: 1rem; */
+        width: 3rem;
+    }
+}
