@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { AiOutlineHome, AiOutlineUser, AiOutlineProject } from "react-icons/ai";
 import { MdOutlineContactMail } from "react-icons/md";
-import { BiBookHeart } from "react-icons/bi";
+import { BiBookHeart, BiHome, BiUser } from "react-icons/bi";
+import {GoProject} from 'react-icons/go';
 import nav from "./Nav.module.css";
 
 export const Nav = () => {
@@ -18,7 +19,7 @@ export const Nav = () => {
         onClick={() => handleNavClick("#home")}
         className={activeNav === "#home" ? nav.active : ""}
       >
-        <AiOutlineHome />
+        <BiHome/>
       </a>
 
       <a
@@ -26,7 +27,7 @@ export const Nav = () => {
         onClick={() => handleNavClick("#about")}
         className={activeNav === "#about" ? nav.active : ""}
       >
-        <AiOutlineUser />
+        <BiUser />
       </a>
 
       <a
@@ -42,7 +43,7 @@ export const Nav = () => {
         onClick={() => handleNavClick("#project")}
         className={activeNav === "#project" ? nav.active : ""}
       >
-        <AiOutlineProject />
+        <GoProject />
       </a>
 
       <a
