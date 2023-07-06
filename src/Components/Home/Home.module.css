@@ -207,7 +207,11 @@
 
     .buttonContainer{
         max-width: 30rem;
-        gap: .5rem;
+        gap: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .buttonContainer a{
