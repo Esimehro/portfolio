@@ -14,3 +14,8 @@ body {
     background-color: #8D7B68;
     padding: 0rem 2rem;
   }
+
+a{
+    text-decoration: none;
+    color: inherit;
+}

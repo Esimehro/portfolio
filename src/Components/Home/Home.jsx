@@ -5,7 +5,7 @@ import home from './Home.module.css'
 
 export const Home = () => {
   return (
-    <div className={home.homeContainer}>
+    <div id="home" className={home.homeContainer}>
       <div className={home.homeContainerText}>
         <h1>Hi, I'm Lois Omodibo</h1>
         <h3>Frontend Developer</h3>
