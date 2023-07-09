@@ -1,6 +1,9 @@
 .aboutMeContainer{
-    height: 100vh;
-    max-width: 1400px;
+   height: 100%;
+   max-width: 1400px;
+   padding: 30px;
+   /* margin-top: -4rem; */
+   /* background-color: red; */
 }
 
 .aboutMeHeader{
@@ -9,6 +12,8 @@
  justify-content: center;
  align-items: center;
  color: #F9F5EB;
+ /* margin-top: -2rem; */
+ /* max-width: 100%; */
 }
 
 .aboutMeHeader h2{
@@ -18,7 +23,7 @@
 }
 
 .aboutMeHeader p{
-    width: 70rem;
+    width: 95%;
     font-size: 20px;
 }
 
@@ -36,11 +41,12 @@
 .aboutMeBodyBlock h4{
     font-size: 20px;
     margin-bottom: .5rem;
+    font-weight: 500;
 }
 
 .aboutMeBodyText{
     border: 1px solid #C8B6A6;
-    width: 37rem;
+    width: 90%;
     padding: 7px;
     margin-bottom: .8rem;
 }
@@ -66,6 +72,58 @@
     font-size: 20px;
 }
 
-.aboutMeText{
+/* .aboutMeText{
 
+} */
+
+/* MEDIA QUERY */
+@media screen and (max-width: 1024px) {
+    .aboutMeContainer{
+        padding: 50px;
+        margin-top: -4rem;
+        /* background-color: red; */
+    }
+
+
+   .aboutMeHeader p{
+    font-size: 18px;
+}
+}
+
+@media screen and (max-width: 789px) {
+    .aboutMeContainer{
+        /* background-color: green; */
+        margin-top: 1rem;
+    }
+
+    .aboutMeHeader{
+        margin-top: -4rem;
+    }
+
+    .aboutMeBody{
+        display: flex;
+        flex-direction: column;
+        /* background-color: red; */
+    }
+
+}
+@media screen and (max-width: 489px) {
+    .aboutMeContainer{
+        /* background-color: green; */
+        padding: 0;
+        margin-top: 8rem;
+    }
+   
+.aboutMeBody{
+    display: flex;
+    flex-direction: column;
+}
+.aboutMeHeader h2{
+    /* margin-top: 5rem; */
+    font-size: 30px;
+}
+.aboutMeHeader p,
+.aboutMeText{
+    font-size: 16px;
+}
 }
