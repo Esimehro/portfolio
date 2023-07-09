@@ -1,14 +1,7 @@
 import React from 'react'
 import pro from './Project.module.css'
-// import loan from '../../assets/loan.png'
-// import shop from '../../assets/shop.png'
-// import net from '../../assets/netflix.png'
-// import udem from '../../assets/udemy.png'
-// import inst from '../../assets/insta.png'
-// import trad from '../../assets/trading.png'
-// import sportify from '../../assets/sportify.png'
 
-export const Project = () => {
+function Project ()  {
   return (
     <div id='project' className={pro.project_main_container}>
     <div className={pro.project_main_container__h2}>
@@ -100,3 +93,4 @@ export const Project = () => {
 </div>
   )
 }
+export default Project;

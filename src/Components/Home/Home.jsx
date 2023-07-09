@@ -1,9 +1,8 @@
 import React from "react";
-import lady from "../../assets/lady.jpg";
 import { CTA } from "./CTA";
 import home from './Home.module.css'
 
-export const Home = () => {
+function Home () {
   return (
     <div id="home" className={home.homeContainer}>
       <div className={home.homeContainerText}>
@@ -22,3 +21,4 @@ export const Home = () => {
     </div>
   );
 };
+export default Home;

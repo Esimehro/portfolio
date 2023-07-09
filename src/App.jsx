@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import './App.css'
-import { Nav } from './Components/Nav/Nav';
-import { Home } from './Components/Home/Home';
-import { About} from './Components/About/about';
+import  Nav  from './Components/Nav/Nav';
+import  Home from './Components/Home/Home';
+import  About from './Components/About/About';
 
 
 function App() {

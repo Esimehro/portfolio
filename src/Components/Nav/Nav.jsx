@@ -5,7 +5,7 @@ import { BiBookHeart, BiHome, BiUser } from "react-icons/bi";
 import {GoProject} from 'react-icons/go';
 import nav from "./Nav.module.css";
 
-export const Nav = () => {
+function Nav () {
   const [activeNav, setActiveNav] = useState("#home");
 
   const handleNavClick = (navId) => {
@@ -56,3 +56,4 @@ export const Nav = () => {
     </nav>
   );
 };
+export default Nav;

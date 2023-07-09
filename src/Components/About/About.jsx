@@ -1,7 +1,7 @@
 import React from "react";
 import about from './About.module.css';
 
-export const About = () => {
+function About (){
   return (
     <div id="about" className={about.aboutMeContainer}>
       <div className={about.aboutMeHeader}>
@@ -72,3 +72,4 @@ export const About = () => {
     </div>
   );
 };
+ export default About;
