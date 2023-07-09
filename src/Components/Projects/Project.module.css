@@ -10,7 +10,6 @@
     justify-content: center;
     margin-bottom: 3rem;
     font-size: 35px;
-    /* margin-bottom: .5rem; */
     -webkit-text-stroke: .7px rgb(98, 98, 110);
 }
 .project_container{
@@ -19,11 +18,9 @@
     gap: 2.5rem;
 }
 .project_item{
-    /* background-color: #205295; */
     padding: 1.3rem;
     border-radius: 2rem;
     border: 1px solid white;
-    /* max-width: 40%; */
     transition: white;
 
 }
@@ -39,7 +36,6 @@
     border-radius: .5rem;
     overflow: hidden;
     margin-bottom: 1rem;
-    /* max-width: 30%; */
 }
 .project_item_image img{
     width: 100%;
@@ -70,9 +66,7 @@
     margin-top: 1.5rem;    
     font-size: 14px;
 }
-/* .project_item_cta a:hover{
-    background-color: #205295;
-} */
+
 .project_item_cta a::before{
     content: '';
     position: absolute;
