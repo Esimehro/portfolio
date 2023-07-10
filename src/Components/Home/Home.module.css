@@ -45,6 +45,8 @@
     margin-top: .5rem;
 }
 
+/* CTA styling */
+
 .buttonContainer{
     margin-top: 1rem;
     display: flex;
@@ -88,6 +90,8 @@
     width: 100%;
 }
 
+/* CTA styling ends */
+
 .homeContainerImage{
     width: 30rem;
     height: 25rem;
@@ -97,6 +101,7 @@
     background-repeat: no-repeat;
     background-blend-mode: multiply;
 }
+
 
 
 /* KEYFRAMES ANIMATION */
@@ -215,5 +220,7 @@
     }
 }
 
+/* @media screen and (max-width: 400px){
 
+} */
     

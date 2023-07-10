@@ -10,7 +10,7 @@ function Project ()  {
     <div className={pro.project_container}>
     <article className={pro.project_item}>
             <div className={pro.project_item_image}>
-                <img src='loan' alt="" />
+                <img src='' alt="" />
             </div>
             <h3>This is the Title</h3>
             <div className={pro.project_item_cta}>
@@ -19,7 +19,7 @@ function Project ()  {
         </article>
         <article className={pro.project_item}>
             <div className={pro.project_item_image}>
-                <img src='sportify' alt="" />
+                <img src='' alt="" />
             </div>
             <h3>This is the Title</h3>
             <div className={pro.project_item_cta}>
@@ -28,7 +28,7 @@ function Project ()  {
         </article>
         <article className={pro.project_item}>
             <div className={pro.project_item_image}>
-                <img src='net' alt="" />
+                <img src='' alt="" />
             </div>
             <h3>This is the Title</h3>
             <div className={pro.project_item_cta}>
@@ -37,7 +37,7 @@ function Project ()  {
         </article>
         <article className={pro.project_item}>
             <div className={pro.project_item_image}>
-                <img src='shop' alt="" />
+                <img src='' alt="" />
             </div>
             <h3>This is the Title</h3>
             <div className={pro.project_item_cta}>
@@ -47,7 +47,7 @@ function Project ()  {
         </article>
         <article className={pro.project_item}>
             <div className={pro.project_item_image}>
-                <img src='udem' alt="" />
+                <img src='' alt="" />
             </div>
             <h3>This is the Title</h3>
             <div className={pro.project_item_cta}>
@@ -56,7 +56,7 @@ function Project ()  {
         </article>
         <article className={pro.project_item}>
             <div className={pro.project_item_image}>
-                <img src='inst' alt="" />
+                <img src='' alt="" />
             </div>
             <h3>This is the Title</h3>
             <div className={pro.project_item_cta}>
@@ -82,7 +82,7 @@ function Project ()  {
         </article>
         <article className={pro.project_item}>
             <div className={pro.project_item_image}>
-                <img src='trad' alt="" />
+                <img src='' alt="" />
             </div>
             <h3>This is the Title</h3>
             <div className={pro.project_item_cta}>
