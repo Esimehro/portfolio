@@ -1,5 +1,5 @@
 import React from 'react';
-import Cv from '../../assets/Bsc cert.pdf'
+import Cv from '../../assets/LOIS-CV.pdf'
 import home from './Home.module.css'
 
 
