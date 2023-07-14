@@ -1,6 +1,6 @@
 .navControl{
     display: flex;
-    background-color: #C8B6A6;
+    background-color: #616F39;
     width: max-content; 
     position: fixed;
     bottom: 2rem;
@@ -25,12 +25,12 @@
 }
 
 .navControl a:hover{
-    background-color: #A4907C;
+    background-color: #A7D129;
     color: white;
 }
 
 .navControl a.active{
-    background-color: #8D7B68;
+    background-color: #3E432E;
     color: white;
 }
 

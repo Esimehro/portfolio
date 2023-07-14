@@ -6,9 +6,9 @@ import con from './Contact.module.css'
 function Socials () {
   return (
     <div className={con.socialsHeader}>
-    <a href='https://linkedln.com'><BsLinkedin/></a>
-    <a href='https://github.com/Esimehro'><BsGithub/></a>
-    <a href='https://twiiter.com'><SlSocialTwitter/></a>
+    <a href='https://www.linkedin.com/in/lois-omodibo-21bb07172/' target='_blank'><BsLinkedin/></a>
+    <a href='https://github.com/Esimehro' target='_blank'><BsGithub/></a>
+    <a href='https://twitter.com/ESI___________' target='_blank'><SlSocialTwitter/></a>
     </div>
   )
 }

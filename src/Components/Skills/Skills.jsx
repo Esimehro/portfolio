@@ -14,7 +14,7 @@ function Skills () {
             <div className={skill.mySkillsContainer}>
               <BsPatchCheck  className={skill.icon}/>
               <div className={skill.mySkills}>
-                <h3>Html</h3>
+                <h3>Html5, CSS3</h3>
                 <p>Experienced</p>
               </div>
             </div>
@@ -40,7 +40,7 @@ function Skills () {
             <div className={skill.mySkillsContainer}>
               <BsPatchCheck className={skill.icon} />
               <div className={skill.mySkills}>
-                <h3>Bootsrap</h3>
+                <h3>GIT</h3>
                 <p>Experienced</p>
               </div>
             </div>
@@ -48,7 +48,7 @@ function Skills () {
             <div className={skill.mySkillsContainer}>
               <BsPatchCheck  className={skill.icon}/>
               <div className={skill.mySkills}>
-                <h3>Bootsrap</h3>
+                <h3>SASS</h3>
                 <p>Experienced</p>
               </div>
             </div>
@@ -56,7 +56,7 @@ function Skills () {
             <div className={skill.mySkillsContainer}>
               <BsPatchCheck  className={skill.icon}/>
               <div className={skill.mySkills}>
-                <h3>Bootsrap</h3>
+                <h3>Bootstrap</h3>
                 <p>Experienced</p>
               </div>
             </div>
@@ -71,7 +71,7 @@ function Skills () {
             <div className={skill.mySkillsContainer}>
               <BsPatchCheck className={skill.icon}/>
               <div className={skill.mySkills}>
-                <h3>Html</h3>
+                <h3>Research</h3>
                 <p>Experienced</p>
               </div>
             </div>
@@ -79,7 +79,7 @@ function Skills () {
             <div className={skill.mySkillsContainer}>
               <BsPatchCheck className={skill.icon}/>
               <div className={skill.mySkills}>
-                <h3>JavaScript</h3>
+                <h3>Leadership</h3>
                 <p>Experienced</p>
               </div>
             </div>
@@ -87,7 +87,7 @@ function Skills () {
             <div className={skill.mySkillsContainer}>
               <BsPatchCheck className={skill.icon}/>
               <div className={skill.mySkills}>
-                <h3>React</h3>
+                <h3>Creativity</h3>
                 <p>Experienced</p>
               </div>
             </div>
@@ -97,7 +97,7 @@ function Skills () {
             <div className={skill.mySkillsContainer}>
               <BsPatchCheck className={skill.icon}/>
               <div className={skill.mySkills}>
-                <h3>Bootsrap</h3>
+                <h3>MS OFFICE</h3>
                 <p>Experienced</p>
               </div>
             </div>
@@ -105,7 +105,7 @@ function Skills () {
             <div className={skill.mySkillsContainer}>
               <BsPatchCheck className={skill.icon}/>
               <div className={skill.mySkills}>
-                <h3>Bootsrap</h3>
+                <h3>Teamwork</h3>
                 <p>Experienced</p>
               </div>
             </div>
@@ -113,7 +113,7 @@ function Skills () {
             <div className={skill.mySkillsContainer}>
               <BsPatchCheck className={skill.icon}/>
               <div className={skill.mySkills}>
-                <h3>Bootsrap</h3>
+                <h3>Problem Solving</h3>
                 <p>Experienced</p>
               </div>
             </div>
