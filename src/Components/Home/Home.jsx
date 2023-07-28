@@ -3,9 +3,9 @@ import { CTA } from "./CTA";
 import home from './Home.module.css';
 import black from '../../assets/black.jpg';
 import white from '../../assets/white.jpg';
-import color from '../../assets/color.jpg';
-import color1 from '../../assets/color1.jpg';
-import me from '../../assets/me-lois.jpg';
+import photo from '../../assets/photo.jpg';
+// import color1 from '../../assets/color1.jpg';
+// import me from '../../assets/me-lois.jpg';
 
 function Home () {
   return (
@@ -19,7 +19,7 @@ function Home () {
         <CTA />
       </div>
       <div className={home.homeContainerImage}>
-          <img src={color} alt="" />
+          <img src={photo} alt="" />
       </div>
     </div>
   );

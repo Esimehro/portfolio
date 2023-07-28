@@ -99,7 +99,7 @@
 
 .homeContainerImage{
     width: 30rem;
-    height: 25rem;
+    height: 30rem;
     /* background-image: url('../../assets/lady.jpg'); */
     background-color: #000000; 
     object-fit: contain;
@@ -110,7 +110,7 @@
 
 .homeContainerImage img{
     width: 30rem;
-    height: 25rem;
+    height: 30rem;
     object-fit: cover;
     /* background-blend-mode: color-dodge; */
 }

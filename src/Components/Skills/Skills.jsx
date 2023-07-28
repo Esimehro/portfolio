@@ -8,7 +8,7 @@ function Skills () {
       <h2>My Skills</h2>
       <div className={skill.container}>
         <div className={skill.mainSkillContainer}>
-          <h3>Coding Skills</h3>
+          <h3>Technical Skills</h3>
           <div className={skill.skillBlock}>
           <div>
             <div className={skill.mySkillsContainer}>
@@ -65,13 +65,13 @@ function Skills () {
         </div>
 
         <div className={skill.mainSkillContainer}>
-          <h3>Technical Skills</h3>
+          <h3>Soft Skills</h3>
           <div className={skill.skillBlock}>
           <div>
             <div className={skill.mySkillsContainer}>
               <BsPatchCheck className={skill.icon}/>
               <div className={skill.mySkills}>
-                <h3>Research</h3>
+                <h3>Communication</h3>
                 <p>Experienced</p>
               </div>
             </div>
@@ -87,7 +87,7 @@ function Skills () {
             <div className={skill.mySkillsContainer}>
               <BsPatchCheck className={skill.icon}/>
               <div className={skill.mySkills}>
-                <h3>Creativity</h3>
+                <h3>Attention to detail</h3>
                 <p>Experienced</p>
               </div>
             </div>
@@ -97,7 +97,7 @@ function Skills () {
             <div className={skill.mySkillsContainer}>
               <BsPatchCheck className={skill.icon}/>
               <div className={skill.mySkills}>
-                <h3>MS OFFICE</h3>
+                <h3>Time Management</h3>
                 <p>Experienced</p>
               </div>
             </div>
@@ -105,7 +105,7 @@ function Skills () {
             <div className={skill.mySkillsContainer}>
               <BsPatchCheck className={skill.icon}/>
               <div className={skill.mySkills}>
-                <h3>Teamwork</h3>
+                <h3>Team player</h3>
                 <p>Experienced</p>
               </div>
             </div>
