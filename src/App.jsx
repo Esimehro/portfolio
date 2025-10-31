@@ -1,27 +1,19 @@
-import { useState } from 'react'
-import './App.css'
-import  Nav  from './Components/Nav/Nav';
-import  Home from './Components/Home/Home';
-import  About from './Components/About/About';
-import  Skills  from './Components/Skills/Skills';
-import Project from './Components/Projects/Project';
-import Contact from './Components/Contact/Contact';
-
+import { useState } from "react";
+import "./App.css";
+import Home from "./Components/Home/Home";
+import About from "./Components/About/About";
+import Contact from "./Components/Contact/Contact";
+import Resume from "./Components/Resume/Resume";
 
 function App() {
-  
-
   return (
     <div>
-    
-      <Home/>
-      <Nav/>
-      <About/>
-      <Skills/>
-      <Project/>
-      <Contact/>
+      <Home />
+      <About />
+      <Resume />
+      <Contact />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

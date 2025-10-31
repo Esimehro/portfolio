@@ -1,75 +1,20 @@
 import React from "react";
 import about from './About.module.css';
 
-function About (){
+function About() {
   return (
-    <div id="about" className={about.aboutMeContainer}>
-      <div className={about.aboutMeHeader}>
-        <h2>About Me</h2>
-        <p>
-          In publishing and graphic design, Lorem ipsum is a placeholder text
-          commonly used to demonstrate the visual form of a document or a
-          typeface without relying on meaningful content. Lorem ipsum may be
-          used as a placeholder before final copy is available.
-        </p>
-      </div>
-
-      <div className={about.aboutMeBody}>
-        <div className={about.aboutMeBodyBlock}>
-          <h4>Education</h4>
-          <div className={about.aboutMeBodyText}>
-            <p className={about.aboutMeDates}>
-              <span></span> 2017-2018
-            </p>
-            <h4>Delta State University</h4>
-            <p className={about.aboutMeText}>
-              In publishing and graphic design, Lorem ipsum is a placeholder
-              text commonly used to demonstrate the visual form of a document or
-              a typeface without relying on meaningful content.
-            </p>
-          </div>
-        </div>
-
-        <div className={about.aboutMeBodyBlock}>
-          <h4>Experience</h4>
-          <div className={about.aboutMeBodyText}>
-            <p className={about.aboutMeDates}>
-              <span></span> 2017-2018
-            </p>
-            <h4>Stutern</h4>
-            <p className={about.aboutMeText}>
-              In publishing and graphic design, Lorem ipsum is a placeholder
-              text commonly used to demonstrate the visual form of a document or
-              a typeface without relying on meaningful content.
-            </p>
-          </div>
-
-          <div className={about.aboutMeBodyText}>
-            <p className={about.aboutMeDates}>
-              <span></span> 2017-2018
-            </p>
-            <h4>Stutern</h4>
-            <p className={about.aboutMeText}>
-              In publishing and graphic design, Lorem ipsum is a placeholder
-              text commonly used to demonstrate the visual form of a document or
-              a typeface without relying on meaningful content.
-            </p>
-          </div>
-
-          <div className={about.aboutMeBodyText}>
-            <p className={about.aboutMeDates}>
-              <span></span> 2017-2018
-            </p>
-            <h4>Stutern</h4>
-            <p className={about.aboutMeText}>
-              In publishing and graphic design, Lorem ipsum is a placeholder
-              text commonly used to demonstrate the visual form of a document or
-              a typeface without relying on meaningful content.
-            </p>
-          </div>
+    <div id="aboutme" className={about.aboutMeContainer}>
+      <div className={about.aboutMeContent}>
+        <div className={about.aboutMeHeader}>
+          <h2>About Me</h2>
+          <p>
+As a detail-oriented frontend developer with over 3 years of experience, I specialize in crafting scalable web applications using React, TypeScript, and modern CSS frameworks. My expertise spans component architecture, state management, API integration, and responsive design, with a strong focus on writing maintainable code and building accessible, high-performance user experiences.          </p>
+          <p>
+My focus is on developing engaging digital experiences that merge aesthetic appeal with functional excellence. Leveraging expertise in frontend technologies and user-centered design principles, I create intuitive interfaces that drive user engagement. I'm eager to partner with visionary teams to redefine what's possible in web development.</p>
         </div>
       </div>
     </div>
   );
-};
- export default About;
+}
+
+export default About;

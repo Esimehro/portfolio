@@ -1,115 +1,136 @@
-.aboutMeContainer{
-   height: 100%;
-   max-width: 1400px;
-   padding: 30px;
+/* CSS Variables for Light and Dark Mode */
+:root {
+  /* Light Mode Colors */
+  --bg-primary: #F8FAFC;
+  --text-primary: #0F172A;
+  --text-secondary: #475569;
+  --text-accent: #2563EB;
+  --text-accent-light: #0EA5E9;
+  --gradient-primary: linear-gradient(135deg, #2563EB 0%, #0EA5E9 100%);
 }
 
-.aboutMeHeader{
- display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center;
- color: #F9F5EB;
+[data-theme="dark"] {
+  /* Dark Mode Colors */
+  --bg-primary: #0F172A;
+  --text-primary: #F1F5F9;
+  --text-secondary: #94A3B8;
+  --text-accent: #60A5FA;
+  --text-accent-light: #38BDF8;
+  --gradient-primary: linear-gradient(135deg, #60A5FA 0%, #38BDF8 100%);
 }
 
-.aboutMeHeader h2{
-    font-size: 45px;
-    margin-bottom: .5rem;
-    -webkit-text-stroke: .7px rgb(104, 104, 153);
+.aboutMeContainer {
+  background-color: var(--bg-primary);
+  /* min-height: 100vh; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 20px 80px 20px;
+  transition: background-color 0.3s ease;
 }
 
-.aboutMeHeader p{
-    width: 95%;
-    font-size: 20px;
+.aboutMeContent {
+  max-width: 1000px;
+  width: 100%;
 }
 
-.aboutMeBody{
- display: flex;
- justify-content: space-between;
+.aboutMeHeader {
+  text-align: center;
 }
 
-.aboutMeBodyBlock{
-    margin-top: 2rem;
-    color: #F9F5EB;
+.aboutMeHeader h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 2rem;
+  position: relative;
+  transition: color 0.3s ease;
 }
 
-.aboutMeBodyBlock h4{
-    font-size: 20px;
-    margin-bottom: .5rem;
-    font-weight: 500;
+.aboutMeHeader h2::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 4px;
+  background: var(--gradient-primary);
+  border-radius: 2px;
+  transition: background 0.3s ease;
 }
 
-.aboutMeBodyText{
-    border: 1px solid #C8B6A6;
-    width: 90%;
-    padding: 7px;
-    margin-bottom: .8rem;
+.aboutMeHeader p {
+  font-size: 1.25rem;
+  line-height: 1.8;
+  color: var(--text-secondary);
+  margin: 0 auto 2rem;
+  text-align: center;
+  max-width: 900px;
+  transition: color 0.3s ease;
 }
 
-.aboutMeDates{
-    color: #C8B6A6;
-    display: flex;
-    align-items: center;
-    gap: .5rem;
-    margin-bottom: .5rem;
+.aboutMeHeader p:last-of-type {
+  margin-bottom: 0;
 }
 
-.aboutMeDates span{
-    display: inline-block;
-    background-color: #C8B6A6;
-    border: 1px solid #C8B6A6 ;
-    height: .8rem;
-    width: .8rem;
-}
-
-.aboutMeBodyText h4{
-    font-size: 20px;
-}
-
-
-/* MEDIA QUERY */
+/* MEDIA QUERIES */
 @media screen and (max-width: 1024px) {
-    .aboutMeContainer{
-        padding: 50px;
-        margin-top: -4rem;
-    }
-
-
-   .aboutMeHeader p{
-    font-size: 18px;
+  .aboutMeContainer {
+    padding: 60px 20px;
+  }
+  
+  .aboutMeHeader h2 {
+    font-size: 2.5rem;
+  }
+  
+  .aboutMeHeader p {
+    font-size: 1.125rem;
+  }
 }
+
+@media screen and (max-width: 768px) {
+  .aboutMeContainer {
+    padding: 40px 20px;
+  }
+  
+  .aboutMeHeader h2 {
+    font-size: 2rem;
+  }
+  
+  .aboutMeHeader p {
+    font-size: 1rem;
+    text-align: left;
+  }
 }
 
-@media screen and (max-width: 789px) {
-    .aboutMeContainer{
-        margin-top: 1rem;
-    }
+@media screen and (max-width: 480px) {
+  .aboutMeContainer {
+    padding: 30px 15px;
+  }
+  
+  .aboutMeHeader h2 {
+    font-size: 1.75rem;
+  }
+  
+  .aboutMeHeader p {
+    font-size: 0.9rem;
+  }
+}
 
-    .aboutMeHeader{
-        margin-top: -4rem;
-    }
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  .aboutMeContainer,
+  .aboutMeHeader h2,
+  .aboutMeHeader p {
+    transition: none;
+  }
+}
 
-    .aboutMeBody{
-        display: flex;
-        flex-direction: column;
-    }
-
-}
-@media screen and (max-width: 489px) {
-    .aboutMeContainer{
-        padding: 0;
-        margin-top: 8rem;
-    }
-   
-.aboutMeBody{
-    display: flex;
-    flex-direction: column;
-}
-.aboutMeHeader h2{
-    font-size: 30px;
-}
-.aboutMeHeader p,
-.aboutMeText{
-    font-size: 16px;
-}
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .aboutMeHeader h2::after {
+    background: var(--text-primary);
+    height: 3px;
+  }
 }
