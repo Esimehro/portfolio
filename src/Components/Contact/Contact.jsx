@@ -235,7 +235,7 @@ const Contact = () => {
             <p className={styles.socialConnectText}>Or connect with me on:</p>
             <div className={styles.socialLinks}>
               <a
-                href="https://linkedin.com/in/yourusername"
+                href="https://www.linkedin.com/in/lois-omodibo-21bb07172/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={styles.contactSocialLink}
@@ -251,7 +251,7 @@ const Contact = () => {
                 LinkedIn
               </a>
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/Esimehro"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={styles.contactSocialLink}
