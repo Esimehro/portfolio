@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import styles from "./Resume.module.css";
+import nirsal from "../../assets/nirsal.png";
+import beautiful from "../../assets/beautiful-minds.png";
 import amalaCloud from "../../assets/amalaCloud.png";
 import serviceProvider from "../../assets/sps.png";
 import individual from "../../assets/individual.png";
@@ -24,6 +26,23 @@ const Resume = () => {
   ];
 
   const workHistoryItems = [
+    {
+       period: "Nov. 2024 - Present",
+      company: "ScholaOS — Multi-Tenant School Management Platform",
+      position: "Fullstack Developer (ASP.NET Core, PostgreSQL, Angular)",
+      responsibilities: [
+"* Multi-tenant, white-label platform covering billing, academic management, attendance, finance and notifications, served by a shared ASP.NET Core API with per-tenant configuration",
+      ]
+    },
+    {
+       period: "Nov. 2024 - Present",
+      company: "Golux — Digital Mobility Platform (ride-hailing) ",
+      position: "Fullstack Developer (C#, .NET Core, SignalR, Paystack, Background Jobs, React Native)",
+      responsibilities: [
+"Real-time driver-rider matching and live location tracking over SignalR with sub-second latency across concurrent active sessions.",
+"Paystack integration with PCI-aligned transaction verification, webhook handling and automated refunds; background jobs for notifications and payment reconciliation."
+      ]
+    },
     {
       period: "Nov. 2024 - Present",
       company: "Amala Cloud Solutions Ltd.",
@@ -95,6 +114,22 @@ const Resume = () => {
   ];
 
   const projects = [
+        {
+      name: "Nirsal",
+      description:
+        "This is the login/admin portal for NMFB (a Nigerian microfinance bank) — a React-based internal dashboard, likely for managing loans, customers, or back-office operations. It's not public-facing; it just requires JS to load past the login gate.",
+      image: nirsal,
+      liveLink: "https://obladmin.nmfb.com.ng/",
+      technologies: ["React", "Tailwind CSS", "Framer Motion"],
+    },
+      {
+      name: "Beautiful Minds",
+      description:
+        "Beautiful Minds is a platform that makes quality mental health care feel safe, accessible, and supportive.",
+      image: beautiful,
+      liveLink: "https://www.beautifulmindshs.com/",
+      technologies: ["React", "Tailwind CSS", "Framer Motion"],
+    },
     {
       name: "amalaCloud Website",
       description:
